@@ -1,0 +1,395 @@
+@import	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+
+/*AQUI EMPIEZA NUESTRO ENCABEZADO PRINCIPAL*/
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:url(../IMAGENES/fondo14.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+
+.navegacion{
+	width: 100%;
+	height: 35px;
+	margin:0px auto;
+	background: blue;
+	clear: both;
+
+
+}
+
+.navegacion img{
+	padding: 10px;
+	position: relative;
+	top: -5px;
+	width: 40px;
+	height: 34px;
+
+
+
+
+}
+
+.navegacion ul{
+	list-style: none;
+	position: relative;
+	top: -5px;
+	position: absolute;
+
+}
+
+.menu > li{
+	display: inline-block;
+
+	
+}
+
+.menu > li a{
+
+	position: relative;
+	top: -25px;
+	text-decoration: none;
+	color: white;
+	left: 10px;
+	
+}
+
+.menu > li a h3{
+	
+	font-size: 13px;
+	color: white;
+}
+
+.menu > li a i{
+	
+position: relative;
+left: 600px;
+padding: 0px 25px;
+}
+
+.name{
+position: relative;
+left: 600px;
+
+}
+
+.fecha{
+	position: relative;
+	left: 500px;
+
+}
+
+/*AQUI TERMINA NUESTRO ENCABEZADO PRINCIPAL*/
+
+
+/*AQUI EMPIEZA NUESTRO 2 ENCABEZADO PRINCIPAL*/
+
+.servis form{
+	position: relative;
+	background: #F2F2F2;
+	width: 100%;
+	height: 110px;
+    border-radius: 10px;
+	
+}
+
+
+.menu2{
+	width: 100%;
+	text-align: center;
+}
+
+.menu2 img{
+background: white;
+padding: 0px 15px;
+}
+
+.menu2 img:hover{
+	color: #355784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+/*AQUI TERMINA NUESTRO 2 ENCABEZADO PRINCIPAL*/
+
+
+
+
+.OPCIONES{
+	width: 15.2%;
+	height:600px;
+	position: relative;
+	background: rgba(0,0,0,.2);
+    float: left;
+}
+
+.OPCIONES ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.OPCIONES ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.OPCIONES ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+
+}
+
+
+
+/*AQUI LE DAMOS FORMATO A NUESTRO MENU DE INSERTAR USUARIOS*/
+.inicio{
+	
+	width: 1000px;
+	margin: auto;
+	position: relative;
+	left: 70px;
+	
+
+}
+.inicio > h1{
+	
+	color: #3c93b0;
+}
+hr{
+	display: block;
+	background: #ccc;
+	height: 5px;
+	margin: 5px 0px;
+}
+
+/*PANEL DE CONTROL*/
+
+.titlePanelControl
+{
+	width: 97%;
+	background: #fff;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	font-size: 18pt !important;
+	color: #0A4661;
+
+}
+
+.divContainer
+{
+margin-bottom: 5px;
+}
+
+.dashboard
+{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: space-around; 
+width: 100%; 
+
+margin: auto;
+}
+
+.dashboard a
+{
+	color: #898989;
+	width: calc(100% /5);
+	height: 85px;
+	padding: 20px;
+	background-color: #fff;
+	font-size: 23pt;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dashboard p
+{
+	color: #3279a7;
+
+}
+.dashboard a span
+{
+	font-weight: bold;
+	font-size: 21pt;
+	text-align: center;
+	padding: 20px;
+}
+
+.containerPerfil
+{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+.containerDataUser, .containerDataEmpresa
+{
+width: 450px;
+background-color: #fff;
+padding: 20px;
+}
+
+.logoUser, .logoEMP{
+	display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin: 20px auto;
+padding: 25px;
+background: #E9E9E9;
+}
+
+
+.logoUser img,.logoEMP img{
+	width: 100%;
+	height:100%;
+}
+.divDataUser{
+	padding: 10px;
+	margin: auto;
+}
+
+.divInfoSistema h4
+{
+background:#3279a7;
+padding: 5px 10px;
+color: #fff;
+border-radius: 5px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.divDataUser > div
+{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+
+}
+.divDataUser label
+{
+width: 150px;
+margin:0;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.divDataUser span
+{
+padding: 5px;
+}
+
+.divInfoSistema form
+{
+	padding: 20px;
+
+}
+.divInfoSistema input
+{
+margin-bottom: 10px;
+margin: auto 15px;
+display: initial;
+background: #E6E6E6;
+border-radius: 5px;
+width: 100%;
+height: 30px;
+
+
+}
+	
+
+ button
+{
+	width: 100%;
+	background:red;
+	
+}
+
+.divInfoSistema input{
+
+
+}
+
+.btn_save{
+	display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+	background:#01DF01;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 30px;
+margin-top: 10px;
+}
+
+.btn_save:hover{
+background:#58FA58;
+}
+
+.divDataUser  div  input
+{
+	margin-top: 17px;
+	
+}
+
+div .alertChangePass
+
+{
+    color:blue;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+}
+
+
+.divDataUser > div > .alertMedPass{
+	margin:auto;
+   text-align: center;
+	
+}
+
+#show-hide-passwd
+{
+background:#DCDCDC;
+width: 55px;
+height: 29px;
+top: 17px;
+right:14px;
+}

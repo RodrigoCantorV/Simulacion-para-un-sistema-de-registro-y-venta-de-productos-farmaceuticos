@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script type= "text/javascript">
+function cuenta(){
+	var longi=15;
+	var resta="";
+	var clave = document.getElementById("clave").value.length;
+	resta=longi-clave;
+	if (resta > 8 ) {
+		alert("Tu contrasela es muy corta");
+	}
+	
+}
+</script>
+
+<body>
+<textarea  cols="30" rows="10"  name="clave" id="clave" onkeyup="" maxlength="15"></textarea>
+<button name="boton" id="boton" onclick="cuenta()" > boton</button>
+</body>
+</html>

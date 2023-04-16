@@ -1,0 +1,179 @@
+@import	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+
+/*AQUI EMPIEZA NUESTRO ENCABEZADO PRINCIPAL*/
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:url(../IMAGENES/fondo14.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+.navegacion{
+	width: 100%;
+	height: 35px;
+	margin:0px auto;
+	background: blue;
+	clear: both;
+
+
+}
+
+.navegacion img{
+	padding: 10px;
+	position: relative;
+	top: -5px;
+	width: 40px;
+	height: 34px;
+
+
+
+
+}
+
+.navegacion ul{
+	list-style: none;
+	position: relative;
+	top: -5px;
+	position: absolute;
+
+}
+
+.menu > li{
+	display: inline-block;
+
+	
+}
+
+.menu > li a{
+
+	position: relative;
+	top: -25px;
+	text-decoration: none;
+	color: white;
+	left: 10px;
+	
+}
+
+.menu > li a h3{
+	
+	font-size: 13px;
+	color: white;
+}
+
+.menu > li a i{
+	
+position: relative;
+left: 600px;
+padding: 0px 25px;
+}
+
+.name{
+position: relative;
+left: 600px;
+
+}
+
+.fecha{
+	position: relative;
+	left: 500px;
+
+}
+
+/*AQUI TERMINA NUESTRO ENCABEZADO PRINCIPAL*/
+
+
+/*AQUI EMPIEZA NUESTRO 2 ENCABEZADO PRINCIPAL*/
+
+.servis form{
+	position: relative;
+	background: #F2F2F2;
+	width: 100%;
+	height: 110px;
+    border-radius: 10px;
+	
+}
+
+
+.menu2{
+	width: 100%;
+	text-align: center;
+}
+
+.menu2 img{
+background: white;
+padding: 0px 15px;
+}
+
+.menu2 img:hover{
+	color: #355784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+/*AQUI TERMINA NUESTRO 2 ENCABEZADO PRINCIPAL*/
+
+/*AQUI INICIA NUESTRO FORMATO LATERAL*/
+
+
+.OPCIONES{
+	width: 15.2%;
+	height:600px;
+	position: relative;
+	background: rgba(0,0,0,.2);
+    float: left;
+}
+
+.OPCIONES ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.OPCIONES ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.OPCIONES ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+}
+/*AQUI TERMINA NUESTRO FORMATO LATERAL*/
+
+.inicio{
+	
+	width: 1000px;
+	margin: auto;
+	position: relative;
+	left: 70px;
+	
+
+}
+.inicio > h1{
+	
+	color: #3c93b0;
+}
+hr{
+	display: block;
+	background: #ccc;
+	height: 5px;
+	margin: 5px 0px;
+}
